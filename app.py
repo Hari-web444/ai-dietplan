@@ -10,7 +10,7 @@ app = FastAPI(title="Diet Recommendation & Nutrition API")
 # 👇 Add this block to enable CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can replace "*" with ["http://localhost:19006"] for stricter control
+    allow_origins=["http://localhost:19006"],  # You can replace "*" with ["http://localhost:19006"] for stricter control
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
