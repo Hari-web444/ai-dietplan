@@ -22,3 +22,4 @@ docker build -t gcr.io/PROJECT-ID/diet-backend:latest .
 
 2. Push to Artifact Registry / Container Registry and deploy to Cloud Run (or use Cloud Build).
 See Google Cloud docs — replace `PROJECT-ID` and region as needed.
+# ai-dietplan
